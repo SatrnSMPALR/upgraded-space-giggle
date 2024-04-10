@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1712525242628
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1712525768440
+  login: 1712522067053
+money: '0'
+last-account-name: DasChesco
+lastlocation:
+  world: e5d07cf4-0780-414b-a77c-592ffe51434b
+  world-name: DIM1
+  x: -1096.226318319897
+  y: 57.0
+  z: -1106.1150751469902
+  yaw: 165.5806427001953
+  pitch: 21.000017166137695
+logoutlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: 210.59709076993852
+  y: 64.16610926093821
+  z: -552.1205323711657
+  yaw: -101.39794921875
+  pitch: -54.299774169921875

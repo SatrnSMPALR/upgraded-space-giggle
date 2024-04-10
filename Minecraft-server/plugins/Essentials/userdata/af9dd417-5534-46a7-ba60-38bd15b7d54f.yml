@@ -1,0 +1,50 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1712029014841
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1712377921724
+  login: 1712374133910
+  kits:
+    notch: 1711863838801
+    color: 1711863845510
+money: '0'
+logoutlocation:
+  world: 99c629cf-230f-4ee6-90c8-f24297669763
+  world-name: world
+  x: 139.09020414789313
+  y: 56.0
+  z: -222.31603690824247
+  yaw: 95.719482421875
+  pitch: 67.94979858398438
+last-account-name: Jessi005
+lastlocation:
+  world: 99c629cf-230f-4ee6-90c8-f24297669763
+  world-name: world
+  x: 157.62978919590822
+  y: 49.0
+  z: -194.30000001192093
+  yaw: -21.30004119873047
+  pitch: 59.54983901977539
+homes:
+  home:
+    world: 99c629cf-230f-4ee6-90c8-f24297669763
+    world-name: world
+    x: 157.62978919590822
+    y: 49.0
+    z: -194.30000001192093
+    yaw: -21.30004119873047
+    pitch: 59.54983901977539

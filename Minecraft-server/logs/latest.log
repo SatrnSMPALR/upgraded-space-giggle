@@ -1,0 +1,1428 @@
+[02:31:38] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[02:31:38] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.5.0-1017-azure
+[02:31:40] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[02:31:40] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-jupyter/Minecraft-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23111!/ Service=ModLauncher Env=SERVER
+[02:31:41] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 50 dependencies adding them to mods collection
+[02:31:43] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[02:31:43] [main/ERROR] [mixin]: Mixin config fabric-item-group-api-v1.client.mixins.json does not specify "minVersion" property
+[02:31:43] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap]: Propagating FML mod list to Fabric Loader
+[02:31:43] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[02:31:43] [main/WARN] [mixin]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:31:43] [main/WARN] [mixin]: Reference map 'simplyswords-common-refmap.json' for simplyswords-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:31:43] [main/WARN] [mixin]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:31:44] [main/INFO] [Canary]: Loaded configuration file for Canary: 123 options available, 0 override(s) found
+[02:31:44] [main/WARN] [mixin]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:31:45] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[02:31:45] [main/WARN] [mixin]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[02:31:45] [main/WARN] [mixin]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin
+[02:31:45] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[02:31:45] [main/WARN] [mixin]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[02:31:45] [main/WARN] [mixin]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor
+[02:31:50] [main/WARN] [mixin]: @Final field f_31427_:[I in epicfight.mixins.json:MixinWitherBoss should be final
+[02:31:50] [main/WARN] [mixin]: @Final field f_31428_:[I in epicfight.mixins.json:MixinWitherBoss should be final
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:ender_step
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:basic_attack
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:air_attack
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:roll
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:step
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:knockdown_wakeup
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:ender_obscuris
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:dodge_master
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:precise_roll
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:shadow_step
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:guard
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:bull_charge
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:parrying
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:demon_mark_passive
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:impact_guard
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:berserker
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:death_harvest
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:emergency_escape
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:torment_passive
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:ruine_passive
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:lunar_echo_passive
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:endurance
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:forbidden_strength
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:satsujin_passive
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:solar_passive
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:hypervitality
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:stamina_pillager
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:charybdis
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:swordmaster
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:agony_plunge
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:technician
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:true_berserk
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:sweeping_edge
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:dancing_edge
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:plunder_perdition
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:the_guillotine
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:grasping_spire
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:heartpiercer
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:sakura_state
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:steel_whirlwind
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:battojutsu
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:battojutsu_passive
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:rushing_tempo
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:ender_blast
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:relentless_combo
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:ender_fusion
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:liechtenauer
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:sharp_stab
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:eviscerate
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:demonic_ascension
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:regierung
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:lunar_eclipse
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:solar_arcano
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:counter_attack
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:perfect_bulwark
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:vengeful_parry
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:arrow_tenacity
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:pain_anticipation
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:latent_retribution
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:vampirize
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:critical_knowledge
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:heart_shield
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:mindset
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:adrenaline
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:dancing_blade
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill wom:wom:meditation
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:blade_rush
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:wrathful_lighting
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:tsunami
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:everlasting_allegiance
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:meteor_slam
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:revelation
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:demolition_leap
+[02:31:54] [modloading-worker-0/INFO] [epicfight]: Registered skill epicfight:epicfight:phantom_ascent
+[02:31:54] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[02:31:54] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.20 Initialized
+[02:31:54] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.2.20 Initialized
+[02:31:54] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[02:31:54] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[02:31:55] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge]: Kotlin For Forge Enabled!
+[02:31:55] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[02:31:58] [modloading-worker-0/INFO] [terrablender]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[02:31:58] [modloading-worker-0/INFO] [terrablender]: Registered region minecraft:nether to index 0 for type NETHER
+[02:31:58] [modloading-worker-0/INFO] [terrablender]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[02:31:58] [modloading-worker-0/INFO] [terrablender]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[02:31:58] [modloading-worker-0/INFO] [terrablender]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Start animation registration of wom
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 0 to biped/living/eating
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 1 to biped/living/biped_hit_extra_long
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 2 to biped/skill/kick
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 3 to biped/skill/dodgemaster_back
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 4 to biped/skill/dodgemaster_left
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 5 to biped/skill/dodgemaster_right
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 6 to biped/skill/enderstep_forward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 7 to biped/skill/enderstep_backward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 8 to biped/skill/enderstep_left
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 9 to biped/skill/enderstep_right
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 10 to biped/skill/ender_obscuris
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 11 to biped/skill/mob_ender_obscuris
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 12 to biped/skill/shadow_step_forward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 13 to biped/skill/shadow_step_backward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 14 to biped/skill/mob_shadow_step_forward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 15 to biped/skill/mob_shadow_step_backward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 16 to biped/skill/bull_charge
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 17 to biped/skill/roll_forward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 18 to biped/skill/roll_backward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 19 to biped/skill/roll_left
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 20 to biped/skill/roll_right
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 21 to biped/skill/meditation_siting
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 22 to biped/skill/meditation_breathing
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 23 to biped/combat/agony_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 24 to biped/combat/agony_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 25 to biped/combat/agony_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 26 to biped/combat/agony_auto_4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 27 to biped/combat/agony_clawstrike
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 28 to biped/combat/agony_counter
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 29 to biped/combat/agony_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 30 to biped/living/agony_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 31 to biped/living/agony_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 32 to biped/living/agony_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 33 to biped/skill/agony_guard
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 34 to biped/skill/agony_guard_hit1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 35 to biped/skill/agony_guard_hit2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 36 to biped/skill/agony_plunge_forward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 37 to biped/skill/agony_plunge_forward_x
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 38 to biped/combat/ruine_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 39 to biped/combat/ruine_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 40 to biped/combat/ruine_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 41 to biped/combat/ruine_auto_4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 42 to biped/skill/ruine_counterattack
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 43 to biped/combat/ruine_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 44 to biped/combat/ruine_comet
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 45 to biped/skill/ruine_block
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 46 to biped/living/ruine_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 47 to biped/living/ruine_boosted_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 48 to biped/living/ruine_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 49 to biped/living/ruine_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 50 to biped/living/ruine_boosted_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 51 to biped/skill/ruine_plunder
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 52 to biped/skill/ruine_expiation
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 53 to biped/skill/ruine_redemption
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 54 to biped/combat/torment_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 55 to biped/combat/torment_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 56 to biped/combat/torment_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 57 to biped/combat/torment_auto_4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 58 to biped/combat/torment_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 59 to biped/combat/torment_airslam
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 60 to biped/living/torment_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 61 to biped/living/torment_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 62 to biped/living/torment_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 63 to biped/living/torment_charge
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 64 to biped/combat/torment_charged_attack_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 65 to biped/combat/torment_charged_attack_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 66 to biped/combat/torment_charged_attack_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 67 to biped/living/torment_berserk_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 68 to biped/skill/torment_berserk_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 69 to biped/skill/torment_berserk_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 70 to biped/skill/torment_berserk_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 71 to biped/skill/torment_berserk_airslam
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 72 to biped/skill/torment_berserk_convert
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 73 to biped/living/torment_berserk_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 74 to biped/living/torment_berserk_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 75 to biped/combat/katana_sheathed_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 76 to biped/combat/katana_sheathed_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 77 to biped/combat/katana_sheathed_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 78 to biped/combat/katana_sheathed_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 79 to biped/combat/katana_sheathed_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 80 to biped/combat/katana_sheathed_counter
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 81 to biped/living/katana_sheathe
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 82 to biped/living/katana_sheathed_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 83 to biped/living/katana_sheathed_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 84 to biped/combat/katana_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 85 to biped/combat/katana_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 86 to biped/combat/katana_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 87 to biped/combat/katana_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 88 to biped/combat/katana_tsukuyomi
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 89 to biped/living/katana_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 90 to biped/living/katana_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 91 to biped/living/katana_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 92 to biped/skill/katana_guard
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 93 to biped/skill/katana_guard_hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 94 to biped/skill/katana_fatal_draw
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 95 to biped/skill/katana_fatal_draw_second
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 96 to biped/skill/katana_fatal_draw_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 97 to biped/skill/katana_sakura_timed_slash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 98 to biped/combat/enderblaster_onehand_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 99 to biped/combat/enderblaster_onehand_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 100 to biped/combat/enderblaster_onehand_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 101 to biped/combat/enderblaster_onehand_auto_4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 102 to biped/combat/enderblaster_onehand_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 103 to biped/combat/enderblaster_onehand_jumpkick
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 104 to biped/skill/enderblaster_onehand_shoot_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 105 to biped/skill/enderblaster_onehand_shoot_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 106 to biped/skill/enderblaster_onehand_shoot_2_forward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 107 to biped/skill/enderblaster_onehand_shoot_2_left
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 108 to biped/skill/enderblaster_onehand_shoot_2_right
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 109 to biped/skill/enderblaster_onehand_shoot_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 110 to biped/skill/enderblaster_onehand_airshoot
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 111 to biped/skill/enderblaster_onehand_shoot_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 112 to biped/living/enderblaster_onehand_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 113 to biped/living/enderblaster_onehand_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 114 to biped/living/enderblaster_onehand_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 115 to biped/skill/enderblaster_onehand_aiming
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 116 to biped/skill/enderblaster_onehand_shoot
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 117 to biped/skill/enderblaster_onehand_shoot_layed
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 118 to biped/skill/enderblaster_onehand_reload
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 119 to biped/combat/enderblaster_onehand_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 120 to biped/combat/enderblaster_onehand_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 121 to biped/combat/enderblaster_onehand_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 122 to biped/combat/enderblaster_onehand_auto_4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 123 to biped/combat/enderblaster_twohand_tishnaw
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 124 to biped/combat/enderblaster_twohand_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 125 to biped/skill/enderblaster_twohand_shoot_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 126 to biped/skill/enderblaster_twohand_shoot_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 127 to biped/skill/enderblaster_twohand_shoot_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 128 to biped/skill/enderblaster_twohand_shoot_4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 129 to biped/skill/enderblaster_twohand_evade_left
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 130 to biped/skill/enderblaster_twohand_evade_right
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 131 to biped/skill/enderblaster_twohand_airshoot
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 132 to biped/skill/enderblaster_twohand_shoot_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 133 to biped/living/enderblaster_twohand_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 134 to biped/living/enderblaster_twohand_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 135 to biped/skill/enderblaster_twohand_aiming
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 136 to biped/skill/enderblaster_twohand_shoot_right
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 137 to biped/skill/enderblaster_twohand_shoot_left
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 138 to biped/skill/enderblaster_twohand_shoot_layed_right
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 139 to biped/skill/enderblaster_twohand_shoot_layed_left
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 140 to biped/skill/enderblaster_twohand_reload
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 141 to biped/combat/staff_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 142 to biped/combat/staff_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 143 to biped/combat/staff_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 144 to biped/combat/staff_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 145 to biped/combat/staff_kingkong
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 146 to biped/skill/staff_charybdisandscylla
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 147 to biped/living/staff_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 148 to biped/living/staff_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 149 to biped/combat/antitheus_agression
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 150 to biped/combat/antitheus_guillotine
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 151 to biped/combat/antitheus_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 152 to biped/combat/antitheus_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 153 to biped/combat/antitheus_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 154 to biped/combat/antitheus_auto_4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 155 to biped/living/antitheus_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 156 to biped/living/antitheus_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 157 to biped/living/antitheus_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 158 to biped/skill/antitheus_aiming
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 159 to biped/skill/antitheus_shoot
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 160 to biped/skill/antitheus_pull
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 161 to biped/skill/antitheus_ascension
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 162 to biped/skill/antitheus_lapse
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 163 to biped/skill/antitheus_ascended_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 164 to biped/skill/antitheus_ascended_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 165 to biped/skill/antitheus_ascended_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 166 to biped/skill/antitheus_ascended_deathfall
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 167 to biped/skill/antitheus_ascended_blink
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 168 to biped/skill/antitheus_ascended_blackhole
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 169 to biped/living/antitheus_ascended_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 170 to biped/living/antitheus_ascended_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 171 to biped/living/antitheus_ascended_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 172 to biped/living/herrscher_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 173 to biped/living/herrscher_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 174 to biped/living/herrscher_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 175 to biped/skill/herrscher_guard
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 176 to biped/skill/herrscher_guard_hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 177 to biped/skill/herrscher_guard_parry
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 178 to biped/skill/herrscher_trane
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 179 to biped/combat/herrscher_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 180 to biped/combat/herrscher_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 181 to biped/combat/herrscher_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 182 to biped/combat/herrscher_befreiung
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 183 to biped/combat/herrscher_ausrottung
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 184 to biped/skill/gezets_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 185 to biped/skill/gezets_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 186 to biped/skill/gezets_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 187 to biped/skill/gezets_sprengkopf
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 188 to biped/skill/gezets_krummen
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 189 to biped/living/moonless_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 190 to biped/living/moonless_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 191 to biped/living/moonless_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 192 to biped/combat/moonless_reversed_bypass
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 193 to biped/combat/moonless_bypass
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 194 to biped/combat/moonless_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 195 to biped/combat/moonless_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 196 to biped/combat/moonless_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 197 to biped/combat/moonless_auto_1_verso
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 198 to biped/combat/moonless_auto_2_verso
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 199 to biped/combat/moonless_auto_3_verso
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 200 to biped/skill/moonless_lunar_echo
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 201 to biped/skill/moonless_lunar_eclipse
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 202 to biped/combat/moonless_crescent
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 203 to biped/combat/moonless_fullmoon
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 204 to biped/skill/moonless_guard
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 205 to biped/skill/moonless_guard_hit_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 206 to biped/skill/moonless_guard_hit_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 207 to biped/skill/moonless_guard_hit_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 208 to biped/combat/moonless_rewinder
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 209 to biped/living/solar_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 210 to biped/living/solar_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 211 to biped/living/solar_run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 212 to biped/combat/solar_auto_1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 213 to biped/combat/solar_auto_2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 214 to biped/combat/solar_auto_3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 215 to biped/combat/solar_auto_4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 216 to biped/skill/solar_auto_1_polvora
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 217 to biped/skill/solar_auto_2_polvora
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 218 to biped/skill/solar_auto_3_polvora
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 219 to biped/skill/solar_auto_4_polvora
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 220 to biped/combat/solar_quemadura
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 221 to biped/combat/solar_horno
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Start animation registration of epicfight
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 0 to biped/living/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 1 to biped/living/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 2 to biped/living/fly
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 3 to biped/living/creative_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 4 to biped/living/creative_fly
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 5 to biped/living/creative_fly_backward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 6 to 
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 7 to biped/living/hold_crossbow
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 8 to biped/living/hold_map_twohand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 9 to biped/living/hold_map_offhand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 10 to biped/living/hold_map_mainhand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 11 to biped/living/hold_map_twohand_move
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 12 to biped/living/hold_map_offhand_move
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 13 to biped/living/hold_map_mainhand_move
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 14 to biped/living/run
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 15 to biped/living/sneak
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 16 to biped/living/swim
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 17 to biped/living/float
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 18 to biped/living/kneel
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 19 to biped/living/fall
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 20 to biped/living/mount
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 21 to biped/living/sit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 22 to biped/living/dig
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 23 to biped/living/dig_offhand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 24 to 
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 25 to biped/combat/bow_aim_mid
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 26 to biped/combat/bow_shot_mid
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 27 to biped/living/drink
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 28 to biped/living/drink
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 29 to biped/living/drink_offhand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 30 to biped/living/eat
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 31 to biped/living/eat
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 32 to biped/living/eat_offhand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 33 to biped/living/spyglass
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 34 to biped/living/spyglass
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 35 to biped/living/spyglass_offhand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 36 to biped/combat/crossbow_aim_mid
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 37 to biped/combat/crossbow_shot_mid
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 38 to biped/combat/crossbow_reload
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 39 to biped/living/jump
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 40 to biped/living/run_spear
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 41 to biped/living/shield
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 42 to biped/living/shield
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 43 to biped/living/shield_mirror
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 44 to biped/living/hold_greatsword
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 45 to biped/living/hold_uchigatana_sheath
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 46 to biped/living/hold_uchigatana
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 47 to biped/living/hold_tachi
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 48 to biped/living/hold_longsword
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 49 to biped/living/hold_spear
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 50 to biped/living/hold_dual
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 51 to biped/living/hold_liechtenauer
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 52 to biped/living/walk_greatsword
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 53 to biped/living/walk_spear
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 54 to biped/living/walk_uchigatana_sheath
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 55 to biped/living/walk_uchigatana
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 56 to biped/living/walk_twohand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 57 to biped/living/walk_longsword
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 58 to biped/living/walk_liechtenauer
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 59 to biped/living/run_greatsword
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 60 to biped/living/run_uchigatana
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 61 to biped/living/run_uchigatana_sheath
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 62 to biped/living/run_dual
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 63 to biped/living/run_longsword
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 64 to biped/living/uchigatana_scrap
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 65 to biped/living/liechtenauer_ready
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 66 to biped/combat/hit_shield
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 67 to biped/combat/hit_shield
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 68 to biped/combat/hit_shield_mirror
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 69 to biped/living/climb
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 70 to biped/living/sleep
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 71 to biped/combat/javelin_aim_mid
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 72 to biped/combat/javelin_throw_mid
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 73 to off_highest
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 74 to off_middle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 75 to zombie/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 76 to zombie/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 77 to zombie/chase
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 78 to creeper/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 79 to creeper/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 80 to enderman/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 81 to enderman/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 82 to enderman/rage_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 83 to enderman/rage_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 84 to wither_skeleton/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 85 to wither_skeleton/chase
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 86 to wither_skeleton/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 87 to wither_skeleton/special_spawn
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 88 to spider/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 89 to spider/crawl
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 90 to iron_golem/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 91 to iron_golem/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 92 to hoglin/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 93 to hoglin/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 94 to illager/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 95 to illager/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 96 to illager/idle_aggressive
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 97 to illager/chase
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 98 to illager/spellcast
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 99 to ravager/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 100 to ravager/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 101 to vex/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 102 to vex/flip
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 103 to piglin/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 104 to piglin/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 105 to piglin/zombified_idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 106 to piglin/zombified_walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 107 to piglin/zombified_chase
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 108 to piglin/celebrate1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 109 to piglin/celebrate2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 110 to piglin/celebrate3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 111 to piglin/admire
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 112 to wither/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 113 to biped/skill/guard_spear
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 114 to biped/skill/guard_sword
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 115 to biped/skill/guard_dualsword
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 116 to biped/skill/guard_greatsword
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 117 to biped/skill/guard_uchigatana
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 118 to biped/skill/guard_longsword
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 119 to biped/skill/steel_whirlwind_charging
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 120 to biped/skill/roll_forward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 121 to biped/skill/roll_backward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 122 to biped/skill/step_forward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 123 to biped/skill/step_backward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 124 to biped/skill/step_left
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 125 to biped/skill/step_right
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 126 to biped/skill/knockdown_wakeup_left
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 127 to biped/skill/knockdown_wakeup_right
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 128 to biped/skill/demolition_leap_charge
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 129 to biped/skill/demolition_leap
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 130 to biped/skill/phantom_ascent_forward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 131 to biped/skill/phantom_ascent_backward
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 132 to biped/combat/fist_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 133 to biped/combat/fist_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 134 to biped/combat/fist_auto3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 135 to biped/combat/fist_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 136 to biped/combat/sword_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 137 to biped/combat/sword_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 138 to biped/combat/sword_auto3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 139 to biped/combat/sword_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 140 to biped/combat/greatsword_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 141 to biped/combat/greatsword_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 142 to biped/combat/greatsword_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 143 to biped/combat/spear_onehand_auto
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 144 to biped/combat/spear_twohand_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 145 to biped/combat/spear_twohand_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 146 to biped/combat/spear_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 147 to 136
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 148 to biped/combat/sword_auto4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 149 to biped/combat/tool_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 150 to biped/combat/axe_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 151 to biped/combat/sword_dual_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 152 to biped/combat/sword_dual_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 153 to biped/combat/sword_dual_auto3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 154 to biped/combat/sword_dual_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 155 to biped/combat/uchigatana_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 156 to biped/combat/uchigatana_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 157 to biped/combat/uchigatana_auto3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 158 to biped/combat/uchigatana_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 159 to biped/combat/uchigatana_sheath_auto
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 160 to biped/combat/uchigatana_sheath_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 161 to biped/combat/axe_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 162 to biped/combat/axe_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 163 to biped/combat/longsword_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 164 to biped/combat/longsword_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 165 to biped/combat/longsword_auto3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 166 to biped/combat/longsword_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 167 to biped/combat/longsword_liechtenauer_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 168 to biped/combat/longsword_liechtenauer_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 169 to biped/combat/longsword_liechtenauer_auto3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 170 to biped/combat/tachi_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 171 to biped/combat/tachi_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 172 to biped/combat/tachi_auto3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 173 to biped/combat/tachi_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 174 to biped/combat/dagger_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 175 to biped/combat/dagger_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 176 to biped/combat/dagger_auto3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 177 to biped/combat/dagger_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 178 to biped/combat/dagger_dual_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 179 to biped/combat/dagger_dual_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 180 to biped/combat/dagger_dual_auto3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 181 to biped/combat/dagger_dual_auto4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 182 to biped/combat/dagger_dual_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 183 to biped/combat/trident_auto1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 184 to biped/combat/trident_auto2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 185 to biped/combat/trident_auto3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 186 to biped/combat/sword_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 187 to biped/combat/sword_dual_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 188 to biped/combat/uchigatana_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 189 to biped/combat/uchigatana_sheath_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 190 to biped/combat/spear_onehand_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 191 to biped/combat/spear_twohand_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 192 to biped/combat/longsword_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 193 to biped/combat/greatsword_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 194 to biped/combat/fist_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 195 to biped/combat/dagger_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 196 to 187
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 197 to biped/combat/axe_airslash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 198 to biped/combat/sword_mount_attack
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 199 to biped/combat/spear_mount_attack
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 200 to biped/combat/mob_onehand1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 201 to biped/combat/mob_onehand2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 202 to biped/combat/mob_greatsword1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 203 to biped/combat/mob_tachi_special
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 204 to biped/combat/mob_spear_onehand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 205 to biped/combat/mob_spear_twohand1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 206 to biped/combat/mob_spear_twohand2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 207 to biped/combat/mob_spear_twohand3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 208 to biped/combat/mob_sword_dual1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 209 to biped/combat/mob_sword_dual2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 210 to biped/combat/mob_sword_dual3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 211 to biped/combat/mob_longsword1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 212 to biped/combat/mob_longsword2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 213 to biped/combat/mob_uchigatana1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 214 to biped/combat/mob_uchigatana2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 215 to biped/combat/mob_uchigatana3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 216 to biped/combat/mob_dagger_onehand1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 217 to biped/combat/mob_dagger_onehand2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 218 to biped/combat/mob_dagger_onehand3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 219 to biped/combat/mob_dagger_twohand1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 220 to biped/combat/mob_dagger_twohand2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 221 to biped/combat/mob_throw
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 222 to biped/skill/guard_sword_hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 223 to biped/skill/guard_sword_hit_active1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 224 to biped/skill/guard_sword_hit_active2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 225 to biped/skill/guard_sword_hit_active3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 226 to biped/skill/guard_longsword_hit_active1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 227 to biped/skill/guard_longsword_hit_active2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 228 to biped/skill/guard_dualsword_hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 229 to biped/skill/guard_break1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 230 to biped/skill/guard_break2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 231 to biped/skill/guard_longsword_hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 232 to biped/skill/guard_spear_hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 233 to biped/skill/guard_greatsword_hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 234 to biped/skill/guard_uchigatana_hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 235 to biped/skill/greatsword_slam
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 236 to biped/skill/revelation_normal
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 237 to biped/skill/revelation_twohand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 238 to biped/combat/hit_short
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 239 to biped/combat/hit_long
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 240 to biped/combat/hit_on_mount
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 241 to biped/living/landing
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 242 to biped/combat/knockdown
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 243 to biped/living/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 244 to creeper/hit_short
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 245 to creeper/hit_long
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 246 to creeper/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 247 to enderman/hit_short
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 248 to enderman/hit_long
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 249 to enderman/neutralized
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 250 to enderman/convert_rage
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 251 to enderman/tp_kick1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 252 to enderman/tp_kick2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 253 to enderman/rush_kick
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 254 to enderman/jump_kick
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 255 to enderman/knee
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 256 to enderman/kick_twice
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 257 to enderman/grasp
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 258 to enderman/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 259 to enderman/teleport
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 260 to dragon/idle
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 261 to dragon/walk
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 262 to dragon/fly
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 263 to dragon/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 264 to dragon/ground_to_fly
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 265 to dragon/fly_to_ground
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 266 to dragon/attack1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 267 to dragon/attack2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 268 to dragon/attack3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 269 to dragon/attack4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 270 to dragon/attack4_recovery
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 271 to dragon/fireball
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 272 to dragon/airstrike
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 273 to dragon/backjump_prepare
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 274 to dragon/backjump_move
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 275 to dragon/backjump_recovery
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 276 to dragon/crystal_link
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 277 to dragon/neutralized
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 278 to dragon/neutralized_recovery
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 279 to spider/attack
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 280 to spider/jump_attack
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 281 to spider/hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 282 to spider/neutralized
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 283 to spider/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 284 to iron_golem/attack1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 285 to iron_golem/attack2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 286 to iron_golem/attack3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 287 to iron_golem/attack4
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 288 to iron_golem/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 289 to illager/swing_axe1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 290 to illager/swing_axe2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 291 to illager/swing_axe3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 292 to piglin/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 293 to hoglin/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 294 to hoglin/attack
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 295 to ravager/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 296 to ravager/groggy
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 297 to ravager/attack1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 298 to ravager/attack2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 299 to ravager/attack3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 300 to vex/hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 301 to vex/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 302 to vex/charge
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 303 to vex/neutralized
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 304 to witch/drink
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 305 to wither_skeleton/sword_attack1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 306 to wither_skeleton/sword_attack2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 307 to wither_skeleton/sword_attack3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 308 to wither/rush
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 309 to wither/death
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 310 to wither/neutralized
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 311 to wither/spell_wither_armor
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 312 to wither/charging_blocked
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 313 to wither/ghost_stand
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 314 to wither/swirl
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 315 to wither/laser
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 316 to wither/backflip
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 317 to zombie/attack1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 318 to zombie/attack2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 319 to zombie/attack3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 320 to biped/skill/sweeping_edge
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 321 to biped/skill/dancing_edge
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 322 to biped/skill/the_guillotine
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 323 to biped/skill/heartpiercer
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 324 to 146
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 325 to biped/skill/grasping_spire_second
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 326 to biped/skill/steel_whirlwind
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 327 to biped/skill/battojutsu
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 328 to biped/skill/battojutsu_dash
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 329 to biped/skill/rushing_tempo1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 330 to biped/skill/rushing_tempo2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 331 to biped/skill/rushing_tempo3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 332 to biped/skill/relentless_combo
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 333 to biped/skill/eviscerate_first
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 334 to biped/skill/eviscerate_second
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 335 to biped/skill/blade_rush_combo1
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 336 to biped/skill/blade_rush_combo2
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 337 to biped/skill/blade_rush_combo3
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 338 to biped/interact/blade_rush_hit
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 339 to biped/skill/blade_rush_execute
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 340 to biped/skill/blade_rush_failed
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 341 to biped/skill/blade_rush_try
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 342 to biped/skill/wrathful_lighting
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 343 to biped/skill/tsunami
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 344 to biped/skill/tsunami_reinforced
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 345 to biped/skill/everlasting_allegiance_call
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 346 to biped/skill/everlasting_allegiance_catch
+[02:31:58] [modloading-worker-0/INFO] [epicfight]: Assigned animation id 347 to biped/skill/sharp_stab
+[02:31:58] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, LongHitAnimation wom:animmodels/animations/biped/living/biped_hit_extra_long
+[02:31:58] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, LongHitAnimation wom:animmodels/animations/biped/living/biped_hit_extra_long
+[02:31:58] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, LongHitAnimation wom:animmodels/animations/biped/living/biped_hit_extra_long
+[02:31:58] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, LongHitAnimation wom:animmodels/animations/biped/living/biped_hit_extra_long
+[02:31:58] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_siting
+[02:31:58] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_siting
+[02:31:58] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Weapon_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_siting
+[02:31:58] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Sheath_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_siting
+[02:31:58] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_breathing
+[02:31:58] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_breathing
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Weapon_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_breathing
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Sheath_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/meditation_breathing
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/agony_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/agony_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_sheathe
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_sheathe
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Weapon_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_sheathe
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Sheath_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_sheathe
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Weapon_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/katana_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/katana_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/katana_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/katana_run
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/katana_run
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/enderblaster_twohand_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/enderblaster_twohand_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/enderblaster_twohand_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/enderblaster_twohand_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/herrscher_guard
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/herrscher_guard
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/herrscher_guard_hit
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/herrscher_guard_hit
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/herrscher_guard_parry
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/herrscher_guard_parry
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/moonless_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/moonless_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/moonless_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/moonless_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_run
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_run
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_run
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/moonless_run
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/moonless_guard
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/moonless_guard
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/moonless_guard
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/skill/moonless_guard
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_1
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_1
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_1
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_1
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_2
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_2
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_2
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_2
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_3
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_3
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_3
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, GuardAnimation wom:animmodels/animations/biped/skill/moonless_guard_hit_3
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/solar_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/solar_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/solar_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, StaticAnimation wom:animmodels/animations/biped/living/solar_idle
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_walk
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_run
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Arm_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_run
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_R_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_run
+[02:31:59] [modloading-worker-0/WARN] [epicfight]: [EpicFightMod] Can't find the joint Leg_L_IK in the animation file, MovementAnimation wom:animmodels/animations/biped/living/solar_run
+[02:31:59] [modloading-worker-0/INFO] [com.choicetheorem.ctov.ctov]: Got IMC []
+[02:32:01] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:32:02] [main/ERROR] [Cristel Lib]: Cristel Lib Config Pack has no data
+[02:32:02] [main/ERROR] [Cristel Lib]: T&T Waystone Patch Pack condition is false, skipping
+[02:32:02] [main/ERROR] [net.minecraft.Util]: Invalid path in pack: fokastudio:worldgen/biome/README.md, ignoring
+[02:32:05] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs]: Adding datapack listener capsid_recipes
+[02:32:05] [main/INFO] [com.github.L_Ender.cataclysm.Cataclysm]: Adding datapack listener altar_of_amethyst_recipes
+[02:32:08] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe naturalist:frontier_cap
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$8(RecipeManager.java:185) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:184) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[02:32:08] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe parcool:patchouli_parcool_guide
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$8(RecipeManager.java:185) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:184) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[02:32:08] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager]: Parsing error loading recipe naturalist:frontier_cap_alt
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'forge:mod_loaded'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$8(RecipeManager.java:185) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:184) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:77) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:37) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at net.minecraft.server.Main.main(Main.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23278!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%23186!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23101!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+	at com.mohistmc.MohistMCStart.main(MohistMCStart.java:106) [mohist.jar:1.20.1-580]
+[02:32:08] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 8 recipes
+[02:32:09] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 2634 advancements
+[02:32:09] [main/WARN] [epicfight]: Can't find particle type epicfight:entity.hit.blunt
+[02:32:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[02:32:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[02:32:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[02:32:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[02:32:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[02:32:10] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[02:32:10] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:32:10] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[02:32:10] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:32:10] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:32:10] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-580 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.20, NeoForge version 47.1.79)
+[02:32:12] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[02:32:12] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[02:32:12] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[02:32:12] [Server thread/INFO] [com.mohistmc.MohistMC]: Hello Plugins!
+[02:32:12] [Server thread/ERROR] [Minecraft]: Ambiguous plugin name `Essentials' for files `plugins/EssentialsX-2.20.1.jar' and `plugins/EssentialsX-2.21.0-dev+76-71ca7ff.jar' in `plugins'
+[02:32:14] [Server thread/INFO] [xyz.jpenilla.minimotd.bukkit.MiniMOTDPlugin]: [MiniMOTD] Loading MiniMOTD v2.1.0
+[02:32:14] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading LuckPerms v5.4.121
+[02:32:15] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.5
+[02:32:15] [Server thread/INFO] [me.ij0hny.setspawn.SetSpawn]: [SetSpawn] Loading SetSpawn v4.8
+[02:32:15] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Loading Vault v1.7.3-b131
+[02:32:15] [Server thread/INFO] [ru.mrbrikster.chatty.Chatty]: [Chatty] Loading Chatty v2.19.14
+[02:32:15] [Server thread/INFO] [at.dumphey.itemeditor.ItemEditor]: [ItemEditor] Loading ItemEditor v2.0.1
+[02:32:15] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Loading SkinsRestorer v15.0.8
+[02:32:15] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit] Loading WorldEdit v7.3.0+6678-55745ad
+[02:32:16] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@709a0c3c]
+[02:32:16] [Server thread/INFO] [eu.decentsoftware.holograms.plugin.DecentHologramsPlugin]: [DecentHolograms] Loading DecentHolograms v2.8.6
+[02:32:16] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Loading Essentials v2.20.1
+[02:32:16] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB]: [TAB] Loading TAB v4.1.2
+[02:32:16] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin]: [WorldGuard] Loading WorldGuard v7.0.9+5934e49
+[02:32:16] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Loading SimpleClans v2.19.2-05e7abc
+[02:32:16] [Server thread/INFO] [com.ranull.graves.Graves]: [Graves] Loading Graves v4.9
+[02:32:16] [Server thread/INFO] [com.ranull.graves.Graves]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
+[02:32:16] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] Loading Negativity v1.14
+[02:32:16] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Enabling LuckPerms v5.4.121
+[02:32:17] [Server thread/INFO] [Console]:         __    
+[02:32:17] [Server thread/INFO] [Console]:   |    |__)   LuckPerms v5.4.121
+[02:32:17] [Server thread/INFO] [Console]:   |___ |      Running on Bukkit - Mohist
+[02:32:17] [Server thread/INFO] [Console]: 
+[02:32:17] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading configuration...
+[02:32:18] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading storage provider... [YAML]
+[02:32:18] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading internal permission managers...
+[02:32:19] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Performing initial data load...
+[02:32:19] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Successfully enabled. (took 3222ms)
+[02:32:19] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Enabling Vault v1.7.3-b131
+[02:32:20] [Server thread/WARN] [net.milkbowl.vault.Vault]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.1 which is not a depend or softdepend of this plugin.
+[02:32:20] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:32:21] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:32:22] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] Enabled Version 1.7.3-b131
+[02:32:22] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Registered Vault permission & chat hook.
+[02:32:22] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Enabling SkinsRestorer v15.0.8
+[02:32:24] [Server thread/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.1[32;1m.[0;39m
+[02:32:24] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.0.8]
+[02:32:24] [Server thread/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
+[02:32:24] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[02:32:24] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:32:24] [Server thread/INFO] [com.sk89q.wepif.PermissionsResolverManager]: WEPIF: Vault detected! Using Vault for permissions
+[02:32:30] [Server thread/WARN] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and block property-related functions.
+**
+** Please see https://worldedit.enginehub.org/en/latest/faq/#bukkit-adapters
+**********************************************
+
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit] ====================================================
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]  WorldEdit works better if you use Paper 
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]  as your server software. 
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]   
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]  Paper offers significant performance improvements,
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]  bug fixes, security enhancements and optional
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]  features for server owners to enhance their server.
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]   
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]  better at diagnosing lag problems over v1.
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]   
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]  All of your plugins should still work, and the
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]   
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[02:32:30] [Server thread/INFO] [com.sk89q.worldedit.bukkit.WorldEditPlugin]: [WorldEdit] ====================================================
+[02:32:31] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[02:32:31] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[02:32:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[02:32:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[02:32:53] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:32:53] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:32:53] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:32:53] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:32:54] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:32:54] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:32:54] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:32:55] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[02:32:55] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 14%
+[02:32:56] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 17%
+[02:32:56] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 18%
+[02:32:57] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 30%
+[02:32:57] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 84%
+[02:32:58] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 6506 ms
+[02:32:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[02:32:58] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:32:58] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:32:59] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:32:59] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:33:00] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:33:00] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 7%
+[02:33:01] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 11%
+[02:33:02] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 12%
+[02:33:02] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 25%
+[02:33:03] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 4555 ms
+[02:33:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[02:33:03] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:33:03] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:33:04] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:33:04] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[02:33:05] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 4%
+[02:33:05] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 6%
+[02:33:06] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 24%
+[02:33:06] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 78%
+[02:33:06] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3564 ms
+[02:33:06] [Server thread/INFO] [xyz.jpenilla.minimotd.bukkit.MiniMOTDPlugin]: [MiniMOTD] Enabling MiniMOTD v2.1.0
+[02:33:07] [Server thread/WARN] [MiniMOTD]: ======================================================
+[02:33:07] [Server thread/WARN] [MiniMOTD]:  MiniMOTD works better if you use Paper as your server
+[02:33:07] [Server thread/WARN] [MiniMOTD]:  software.
+[02:33:07] [Server thread/WARN] [MiniMOTD]:  
+[02:33:07] [Server thread/WARN] [MiniMOTD]:  Spigot does not include the necessary APIs for all
+[02:33:07] [Server thread/WARN] [MiniMOTD]:  of MiniMOTD's features to operate. MiniMOTD was
+[02:33:07] [Server thread/WARN] [MiniMOTD]:  designed to work with Paper and it's expanded API
+[02:33:07] [Server thread/WARN] [MiniMOTD]:  for full compatibility.
+[02:33:07] [Server thread/WARN] [MiniMOTD]:  
+[02:33:07] [Server thread/WARN] [MiniMOTD]:  Get Paper from https://papermc.io/downloads
+[02:33:07] [Server thread/WARN] [MiniMOTD]: ======================================================
+[02:33:07] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[02:33:08] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
+[02:33:08] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: mohist [1.20.1]
+[02:33:08] [Server thread/INFO] [com.mohistmc.MohistMC]: Hook PlaceholderAPI!
+[02:33:08] [Server thread/INFO] [me.ij0hny.setspawn.SetSpawn]: [SetSpawn] Enabling SetSpawn v4.8
+[02:33:08] [Server thread/INFO] [me.ij0hny.setspawn.SetSpawn]: [SetSpawn] Enabled!
+[02:33:08] [Server thread/INFO] [ru.mrbrikster.chatty.Chatty]: [Chatty] Enabling Chatty v2.19.14
+[02:33:08] [Server thread/INFO] [ru.mrbrikster.chatty.Chatty]: [Chatty] Vault has successful hooked.
+[02:33:08] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: chatty [2.19.14]
+[02:33:08] [Server thread/INFO] [ru.mrbrikster.chatty.Chatty]: [Chatty] PlaceholderAPI has successful hooked.
+[02:33:08] [Server thread/INFO] [at.dumphey.itemeditor.ItemEditor]: [ItemEditor] Enabling ItemEditor v2.0.1
+[02:33:08] [Server thread/INFO] [at.dumphey.itemeditor.ItemEditor]: [ItemEditor] Detected major version 20 and minor version 1
+[02:33:08] [Server thread/INFO] [at.dumphey.itemeditor.ItemEditor]: [ItemEditor] Reloading items.
+[02:33:08] [Server thread/INFO] [at.dumphey.itemeditor.ItemEditor]: [ItemEditor] Loaded 0 items from storage.
+[02:33:08] [Server thread/INFO] [at.dumphey.itemeditor.ItemEditor]: [ItemEditor] Enabled PlaceholderAPI support.
+[02:33:08] [Server thread/INFO] [eu.decentsoftware.holograms.plugin.DecentHologramsPlugin]: [DecentHolograms] Enabling DecentHolograms v2.8.6
+[02:33:09] [Server thread/INFO] [com.earth2me.essentials.Essentials]: [Essentials] Enabling Essentials v2.20.1
+[02:33:09] [Server thread/INFO] [Essentials]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[02:33:10] [Server thread/INFO] [Essentials]: Attempting to convert old kits in config.yml to new kits.yml
+[02:33:10] [Server thread/INFO] [Essentials]: No kits found to migrate.
+[02:33:10] [Server thread/INFO] [Essentials]: Loaded 39094 items from items.json.
+[02:33:10] [Server thread/INFO] [Essentials]: Using locale en
+[02:33:10] [Server thread/INFO] [Essentials]: ServerListPingEvent: Spigot iterator API
+[02:33:10] [Server thread/INFO] [Essentials]: Starting Metrics. Opt-out using the global bStats config.
+[02:33:10] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] [Economy] Essentials Economy hooked.
+[02:33:10] [Server thread/INFO] [Essentials]: Using Vault based permissions (LuckPerms)
+[02:33:10] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB]: [TAB] Enabling TAB v4.1.2
+[02:33:11] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: tab [4.1.2]
+[02:33:11] [Server thread/INFO] [Console]: [TAB] §xEnabled in 416ms
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.bukkit.WorldGuardPlugin]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (world) Lighters are PERMITTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (world) Lava fire is PERMITTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] Loaded configuration for world 'world'
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM-1) TNT ignition is PERMITTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM-1) Lighters are PERMITTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM-1) Lava fire is PERMITTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM-1) Fire spread is UNRESTRICTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] Loaded configuration for world 'DIM-1'
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM1) TNT ignition is PERMITTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM1) Lighters are PERMITTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM1) Lava fire is PERMITTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] (DIM1) Fire spread is UNRESTRICTED.
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.config.WorldConfiguration]: [WorldGuard] Loaded configuration for world 'DIM1'
+[02:33:11] [Server thread/INFO] [com.sk89q.worldguard.WorldGuard]: [WorldGuard] Loading region data...
+[02:33:12] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Enabling SimpleClans v2.19.2-05e7abc
+[02:33:12] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] SQLite Connection successful
+[02:33:12] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Clans: 3
+[02:33:12] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Clan players: 14
+[02:33:12] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Registering 4 chat handlers...
+[02:33:12] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Registering 12 command contexts...
+[02:33:12] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Registering 15 base commands...
+[02:33:13] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Registering 32 command conditions...
+[02:33:13] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Registering 19 command completions...
+[02:33:13] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Multithreading: true
+[02:33:13] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] BungeeCord: false
+[02:33:13] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] HEX support: true
+[02:33:13] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Help us translate SimpleClans to your language! Access https://crowdin.com/project/simpleclans/
+[02:33:13] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] PlaceholderAPI found. Registering hook...
+[02:33:13] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Registering 7 placeholder resolvers...
+[02:33:13] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: simpleclans [2.19.2-05e7abc]
+[02:33:13] [Server thread/INFO] [com.ranull.graves.Graves]: [Graves] Enabling Graves v4.9
+[02:33:13] [Server thread/INFO] [com.ranull.graves.Graves]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
+[02:33:13] [Server thread/WARN] [com.sk89q.worldedit.extent.clipboard.io.sponge.ReaderUtil]: Schematic was made in a newer Minecraft version (2730 > -1). Data may be incompatible.
+[02:33:13] [Server thread/WARN] [com.sk89q.worldedit.extent.clipboard.io.sponge.ReaderUtil]: Schematic was made in a newer Minecraft version (2730 > -1). Data may be incompatible.
+[02:33:13] [Server thread/WARN] [com.sk89q.worldedit.extent.clipboard.io.sponge.ReaderUtil]: Schematic was made in a newer Minecraft version (2730 > -1). Data may be incompatible.
+[02:33:13] [Server thread/INFO] [com.ranull.graves.Graves]: [Graves] Integration: Hooked into WorldEdit 7.3.0+6678-55745ad.
+[02:33:13] [Server thread/INFO] [com.ranull.graves.Graves]: [Graves] Integration: Hooked into WorldGuard 7.0.9+5934e49.
+[02:33:13] [Server thread/INFO] [com.ranull.graves.Graves]: [Graves] Integration: Hooked into MiniMessage.
+[02:33:13] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: graves [4.9]
+[02:33:13] [Server thread/INFO] [com.ranull.graves.Graves]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.5.
+[02:33:13] [Server thread/INFO] [com.ranull.graves.Graves]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[02:33:13] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] Enabling Negativity v1.14
+[02:33:14] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] Detected server version: v1_20 (v1_20_R1)
+[02:33:14] [Server thread/WARN] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] This plugin has no longer support since 01/09/2023.
+[02:33:14] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] This plugin is free, but you can buy the premium version : https://www.spigotmc.org/resources/86874 <3
+[02:33:14] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] Founded u/v/w baseBlock's methods
+[02:33:14] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] Loaded support for Essentials, WorldGuard.
+[02:33:14] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[02:33:14] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[02:33:14] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[02:33:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (43.754s)! For help, type "help"
+[02:33:14] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[02:33:14] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[02:33:14] [Server thread/INFO] [net.stardustlabs.incendium.Incendium]: Thanks for choosing Incendium!
+[02:33:14] [Server thread/INFO] [net.stardustlabs.structorytowers.StructoryTowers]: Thanks for choosing StructoryTowers!
+[02:33:14] [Server thread/INFO] [net.stardustlabs.structory.Structory]: Thanks for choosing Structory!
+[02:33:15] [Server thread/INFO] [Essentials]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:33:15] [Craft Scheduler Thread - 8/INFO] [Essentials]: Fetching version information...
+[02:33:15] [Server thread/INFO] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Registered WorldGuardProvider successfully
+[02:33:15] [Server thread/WARN] [net.sacredlabyrinth.phaed.simpleclans.SimpleClans]: [SimpleClans] Error registering provider WorldGuard6Provider
+[02:33:15] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[02:33:15] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[02:33:15] [Server thread/WARN] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[02:33:15] [Server thread/INFO] [Console]: 2 placeholder hook(s) registered!
+[02:33:15] [Craft Scheduler Thread - 9/INFO] [net.milkbowl.vault.Vault]: [Vault] Checking for Updates ... 
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.0.8[0;39m
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m8b54a2c[0;39m
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[02:33:15] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[02:33:15] [Craft Scheduler Thread - 9/INFO] [net.milkbowl.vault.Vault]: [Vault] No new version available
+[02:33:15] [Craft Scheduler Thread - 2/ERROR] [Minecraft]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mError getting Mojang UUID[0;39m
+net.skinsrestorer.shared.exception.DataRequestExceptionShared: net.skinsrestorer.shadow.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at net.skinsrestorer.shared.connections.http.HttpResponse.getBodyAs(HttpResponse.java:35) ~[?:?]
+	at net.skinsrestorer.shared.connections.MojangAPIImpl.getUUIDMojang(MojangAPIImpl.java:169) ~[?:?]
+	at net.skinsrestorer.shared.connections.ServiceCheckerService.checkServices(ServiceCheckerService.java:68) ~[?:?]
+	at net.skinsrestorer.shared.plugin.SRPlugin.runServiceCheck(SRPlugin.java:459) ~[?:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:78) ~[forge-1.20.1-47.2.20-universal.jar%23283!/:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:55) ~[forge-1.20.1-47.2.20-universal.jar%23283!/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: net.skinsrestorer.shadow.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at net.skinsrestorer.shadow.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:397) ~[?:?]
+	at net.skinsrestorer.shadow.google.gson.Gson.fromJson(Gson.java:1227) ~[?:?]
+	at net.skinsrestorer.shadow.google.gson.Gson.fromJson(Gson.java:1137) ~[?:?]
+	at net.skinsrestorer.shadow.google.gson.Gson.fromJson(Gson.java:1047) ~[?:?]
+	at net.skinsrestorer.shadow.google.gson.Gson.fromJson(Gson.java:982) ~[?:?]
+	at net.skinsrestorer.shared.connections.http.HttpResponse.getBodyAs(HttpResponse.java:33) ~[?:?]
+	... 8 more
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at net.skinsrestorer.shadow.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[?:?]
+	at net.skinsrestorer.shadow.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:386) ~[?:?]
+	at net.skinsrestorer.shadow.google.gson.Gson.fromJson(Gson.java:1227) ~[?:?]
+	at net.skinsrestorer.shadow.google.gson.Gson.fromJson(Gson.java:1137) ~[?:?]
+	at net.skinsrestorer.shadow.google.gson.Gson.fromJson(Gson.java:1047) ~[?:?]
+	at net.skinsrestorer.shadow.google.gson.Gson.fromJson(Gson.java:982) ~[?:?]
+	at net.skinsrestorer.shared.connections.http.HttpResponse.getBodyAs(HttpResponse.java:33) ~[?:?]
+	... 8 more
+[02:34:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner Nachus_GC Entro al servidor.
+[02:34:04] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Nachus_GC[/127.0.0.1:59180] logged in with entity id 303 at ([world]-1457.4630637204898, 135.0, 357.79248200040377)
+[02:37:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner AshOficialMC Entro al servidor.
+[02:37:03] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: AshOficialMC[/127.0.0.1:59018] logged in with entity id 880 at ([world]792.7620376171792, 174.0, 1420.9864725284315)
+[02:38:19] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for AshOficialMC (142 ms, UUID: 5ecebb8e-5ec6-313a-aa5e-6b9ddd226bc1) seem to use pingspoof Reliability: 99 [world: 792,174,1420]
+[02:38:22] [Async Chat Thread - #1/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ volvi
+[02:38:27] [Async Chat Thread - #0/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ olas
+[02:38:33] [Async Chat Thread - #1/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ holas
+[02:39:27] [Async Chat Thread - #0/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ voy a meditar un rato afk
+[02:39:37] [Async Chat Thread - #1/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ bno pe
+[02:39:40] [Async Chat Thread - #0/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ mira la torre
+[02:39:48] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /tp Nachus_GC 797.5 174 1413.5
+[02:41:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode spectator
+[02:41:36] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /tp Nachus_GC AshOficialMC
+[02:41:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode survival
+[02:42:17] [Async Chat Thread - #3/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ a que paso
+[02:42:28] [Async Chat Thread - #2/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ lo construi
+[02:42:37] [Async Chat Thread - #3/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ al fin la termine
+[02:42:39] [Async Chat Thread - #2/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ sigueme
+[02:42:40] [Async Chat Thread - #3/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ donde
+[02:42:54] [Async Chat Thread - #2/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ lagg
+[02:42:55] [Async Chat Thread - #3/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ vamos
+[02:43:12] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (217 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed 2 times Reliability: 84 [world: 798,174,1415]
+[02:43:15] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (217 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed Reliability: 68 [world: 796,174,1415]
+[02:43:16] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (212 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed Reliability: 100 [world: 795,174,1415]
+[02:43:17] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (212 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed 2 times Reliability: 85 [world: 796,174,1415]
+[02:43:23] [Async Chat Thread - #3/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ a
+[02:43:44] [Async Chat Thread - #2/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ mira desde afuera
+[02:43:50] [Async Chat Thread - #3/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ ALV
+[02:44:59] [Async Chat Thread - #5/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ perfecto
+[02:45:17] [Async Chat Thread - #4/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ me costo mas encontrar la calcita que todo lo demas wn
+[02:45:20] [Async Chat Thread - #5/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ vamo a testearla
+[02:45:25] [Async Chat Thread - #4/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ te quedo re piola
+[02:45:29] [Async Chat Thread - #5/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ gracias
+[02:46:59] [Async Chat Thread - #6/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ te quedaras ahi?
+[02:47:06] [Async Chat Thread - #7/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ si
+[02:47:15] [Async Chat Thread - #6/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ atraigo energia
+[02:47:20] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /summon minecraft:lightning_bolt
+[02:47:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Nachus_GC: Summoned new Lightning Bolt]
+[02:47:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC lost connection: Timed out
+[02:47:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner AshOficialMC Salio del server.
+[02:47:28] [Server thread/WARN] [net.minecraft.network.Connection]: handleDisconnection() called twice
+[02:47:33] [Async Chat Thread - #7/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ XD
+[02:48:10] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (224 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed Reliability: 68 [world: 795,225,1418]
+[02:48:15] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Violation for Nachus_GC (224 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed 2 times Reliability: 85 [world: 795,225,1417]
+[02:48:17] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Violation for Nachus_GC (218 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed 2 times Reliability: 85 [world: 795,225,1418]
+[02:48:19] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Violation for Nachus_GC (218 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed Reliability: 68 [world: 796,225,1419]
+[02:48:25] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Violation for Nachus_GC (218 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed 2 times Reliability: 85 [world: 796,225,1419]
+[02:49:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner AshOficialMC Entro al servidor.
+[02:49:56] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: AshOficialMC[/127.0.0.1:34094] logged in with entity id 1915 at ([world]797.5990624603874, 225.0, 1420.1802517816996)
+[02:50:48] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for AshOficialMC (121 ms, UUID: 5ecebb8e-5ec6-313a-aa5e-6b9ddd226bc1) seem to use pingspoof Reliability: 99 [world: 797,225,1420]
+[02:50:51] [Async Chat Thread - #8/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ volvi
+[02:50:56] [Async Chat Thread - #9/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ ola
+[02:51:09] [Async Chat Thread - #8/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ quiero llegar a la etapa 3
+[02:51:12] [Async Chat Thread - #9/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ no mas ignorame
+[02:51:16] [Async Chat Thread - #8/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ bueno
+[02:51:18] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /summon minecraft:lightning_bolt
+[02:51:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Nachus_GC: Summoned new Lightning Bolt]
+[02:51:19] [Async Chat Thread - #9/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ y no perturbes mi meditacion XD
+[02:51:25] [Async Chat Thread - #8/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ XDDDD
+[02:51:25] [Async Chat Thread - #9/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ XD
+[02:53:57] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC moved too quickly! -0.560279130935669,-62.53178562653483,-0.20496785640716553
+[02:58:11] [Async Chat Thread - #11/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ SII legue a fase 3
+[02:58:17] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC lost connection: Timed out
+[02:58:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner AshOficialMC Salio del server.
+[02:58:17] [Server thread/WARN] [net.minecraft.network.Connection]: handleDisconnection() called twice
+[02:58:27] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: com.mojang.authlib.GameProfile@1921b785[id=5ecebb8e-5ec6-313a-aa5e-6b9ddd226bc1,name=AshOficialMC,properties={},legacy=false] (/127.0.0.1:51488) lost connection: Disconnected
+[02:58:51] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode creative
+[02:59:13] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: com.mojang.authlib.GameProfile@5dde5798[id=5ecebb8e-5ec6-313a-aa5e-6b9ddd226bc1,name=AshOficialMC,properties={},legacy=false] (/127.0.0.1:43172) lost connection: Disconnected
+[02:59:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner AshOficialMC Entro al servidor.
+[02:59:58] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: AshOficialMC[/127.0.0.1:34548] logged in with entity id 3045 at ([world]797.5990624603874, 225.0, 1420.1802517816996)
+[03:00:17] [Async Chat Thread - #13/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ NOOO
+[03:00:22] [Craft Scheduler Thread - 34/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] Failed to access to https://api.negativity.fr/stats/message (Reason: timed out).
+[03:00:26] [Async Chat Thread - #12/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ perdi mi progreso y era etapa 3 lpm
+[03:00:26] [Async Chat Thread - #13/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ nopuedeser man
+[03:00:34] [Server thread/INFO] [Essentials]: Created a User for NT_Matias (0837b5df-14e9-34dd-ba54-e7f9d8874402) for non Bukkit type: org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer
+[03:00:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Miembro NT_Matias Entro al servidor por primera vez!
+[03:00:34] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: NT_Matias[/127.0.0.1:49044] logged in with entity id 3127 at ([world]-0.5, 136.0, 2.5)
+[03:00:39] [Async Chat Thread - #12/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ welcum
+[03:01:14] [Async Chat Thread - #13/INFO] [Console]: [SMP🪐] Miembro NT_Matias ⪼ Holaaa
+[03:01:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: NT_Matias has made the advancement [advancements.alexsmobs.root.title]
+[03:01:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp group owner rename &9&lOwner
+[03:01:40] [luckperms-command-executor/INFO] [Console]: [LP] LOG > (AshOficialMC) [G] (owner)
+[03:01:40] [luckperms-command-executor/INFO] [Console]: [LP] LOG > rename &9&lowner
+[03:01:48] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp group owner rename Owner
+[03:02:00] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp group &9&lowner rename owner
+[03:02:00] [luckperms-command-executor/INFO] [Console]: [LP] LOG > (AshOficialMC) [G] (&9&lowner)
+[03:02:00] [luckperms-command-executor/INFO] [Console]: [LP] LOG > rename owner
+[03:02:00] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: NT_Matias issued server command: /kits
+[03:02:00] [Server thread/INFO] [Essentials]: NT_Matias was denied access to command.
+[03:02:19] [Async Chat Thread - #15/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ NOOOOOOOO
+[03:02:35] [Async Chat Thread - #14/INFO] [Console]: [SMP🪐] Miembro NT_Matias ⪼ q paso
+[03:02:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: NT_Matias issued server command: /rtp
+[03:02:46] [Async Chat Thread - #15/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ por culpa de un phantom perdi mi progreso
+[03:03:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Miembro NT_Matias Murio por nuv.
+[03:03:14] [Async Chat Thread - #14/INFO] [Console]: [SMP🪐] Miembro NT_Matias ⪼ me pueden dar algo?
+[03:03:18] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC lost connection: Timed out
+[03:03:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner AshOficialMC Salio del server.
+[03:03:18] [Server thread/WARN] [net.minecraft.network.Connection]: handleDisconnection() called twice
+[03:03:21] [Async Chat Thread - #15/INFO] [Console]: [SMP🪐] Miembro NT_Matias ⪼ para empezar
+[03:03:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: NT_Matias lost connection: Disconnected
+[03:03:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Miembro NT_Matias Salio del server.
+[03:03:36] [Async Chat Thread - #14/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ yo si
+[03:03:39] [Async Chat Thread - #15/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ uh
+[03:03:41] [Async Chat Thread - #14/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ tmre
+[03:14:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner AshOficialMC Entro al servidor.
+[03:14:32] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: AshOficialMC[/127.0.0.1:55088] logged in with entity id 5350 at ([world]798.1719147125316, 225.0, 1419.7032004325085)
+[03:14:45] [Async Chat Thread - #17/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ lag
+[03:14:50] [Async Chat Thread - #16/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ si xd
+[03:18:32] [Async Chat Thread - #18/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ dios
+[03:23:00] [Async Chat Thread - #21/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ esto tardara un rato
+[03:23:04] [Async Chat Thread - #20/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ pero valdra la pena
+[03:24:53] [Async Chat Thread - #22/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ ya estoy en etapa 3
+[03:25:01] [Async Chat Thread - #23/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ no mas farmear lo suficiente
+[03:25:02] [Async Chat Thread - #22/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ god
+[03:25:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Nachus_GC has made the advancement [advancements.alexscaves.bioluminescent_torch.title]
+[03:25:21] [Async Chat Thread - #22/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ q rico
+[03:28:34] [Async Chat Thread - #25/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ XD
+[03:28:48] [Async Chat Thread - #24/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ te falta meditar bro
+[03:28:48] [Async Chat Thread - #25/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ xd q
+[03:28:53] [Async Chat Thread - #24/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ XD
+[03:28:56] [Async Chat Thread - #25/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ estoy listo
+[03:28:56] [Async Chat Thread - #24/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ no gracias
+[03:29:08] [Async Chat Thread - #25/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ la hypervitalidad me ayuda mas creo
+[03:29:16] [Async Chat Thread - #24/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ eso crees XD
+[03:29:21] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /tpa Nachus_GC
+[03:29:25] [Async Chat Thread - #25/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ no we
+[03:29:42] [Async Chat Thread - #24/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ q
+[03:30:04] [Async Chat Thread - #25/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ q no
+[03:30:06] [Async Chat Thread - #24/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ perate
+[03:30:44] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /home acity
+[03:31:26] [Server thread/INFO] [Essentials]: Created a User for Ravrs (459dca36-2181-3c33-a124-4f16d4eebe09) for non Bukkit type: org.bukkit.craftbukkit.v1_20_R1.entity.CraftPlayer
+[03:31:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Miembro Ravrs Entro al servidor por primera vez!
+[03:31:26] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Ravrs[/127.0.0.1:60690] logged in with entity id 7313 at ([world]10.5, 131.0, 6.5)
+[03:31:39] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ me papeo al warden
+[03:31:44] [Async Chat Thread - #26/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ XD
+[03:31:52] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ bienvenido Ravrs
+[03:31:59] [Async Chat Thread - #26/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ ola
+[03:32:17] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ no me duro nada
+[03:32:28] [Async Chat Thread - #26/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ si jaja
+[03:32:38] [Async Chat Thread - #27/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ no entiendo nada
+[03:32:57] [Async Chat Thread - #26/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ es q Ash andaba probando una habilidad de pelea
+[03:33:13] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ y no le sirve pa nah
+[03:33:15] [Async Chat Thread - #26/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ que tan avanzados estan??
+[03:33:26] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ no mas nosotros dos estamos avanzados
+[03:33:31] [Async Chat Thread - #26/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ los demas meh
+[03:33:32] [Async Chat Thread - #27/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ pero que tanto
+[03:33:46] [Async Chat Thread - #26/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ Ash y yo deleteamos al Ender Dragon
+[03:33:52] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ Nos faltan 5 bosses mas
+[03:33:58] [Async Chat Thread - #26/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ mas o menos
+[03:34:02] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ ya me papie al warden
+[03:34:13] [Async Chat Thread - #26/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ hay 71 personas y nosotros acarreamos el serv XD
+[03:34:21] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ XD
+[03:34:34] [Async Chat Thread - #26/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ WTF
+[03:34:38] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ q
+[03:34:39] [Async Chat Thread - #26/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ cuanto lleva el server?
+[03:34:54] [Async Chat Thread - #26/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ desde que se reinicio como 4 dias creo
+[03:35:14] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ no we
+[03:35:14] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /tps
+[03:35:19] [Async Chat Thread - #26/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ cuantos
+[03:35:20] [Async Chat Thread - #27/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ paso mas de 1 semana
+[03:35:24] [Async Chat Thread - #26/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ a
+[03:35:44] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /home casanew
+[03:36:34] [Async Chat Thread - #29/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ Nacho voy a probar unas cosas, vuelvo despues
+[03:36:44] [Async Chat Thread - #28/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ bueno
+[03:37:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ravrs has made the advancement [Stone Age]
+[03:37:38] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC lost connection: Disconnected
+[03:37:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner AshOficialMC Salio del server.
+[03:37:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ravrs has made the advancement [Getting an Upgrade]
+[03:38:33] [Async Chat Thread - #30/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ es la primera vez que con mas de 100 mods el minecraft me va a 400 fps
+[03:38:46] [Async Chat Thread - #31/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ enserio?
+[03:38:51] [Async Chat Thread - #30/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ sup
+[03:38:55] [Async Chat Thread - #31/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ wah
+[03:39:23] [Async Chat Thread - #30/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ imagina q yo esperaba q ni funcionara la pc
+[03:39:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ravrs has made the advancement [Monster Hunter]
+[03:40:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ravrs has made the advancement [advancements.alexsmobs.seagull_steal.title]
+[03:47:26] [Async Chat Thread - #32/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ cual es el minearl mas valioso aqui?
+[03:47:41] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Ravrs (100 ms, UUID: 459dca36-2181-3c33-a124-4f16d4eebe09) seem to use Speed Reliability: 85 [world: -14,158,178]
+[03:47:45] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Ravrs (101 ms, UUID: 459dca36-2181-3c33-a124-4f16d4eebe09) seem to use Speed Reliability: 88 [world: -12,158,178]
+[03:47:48] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Ravrs (101 ms, UUID: 459dca36-2181-3c33-a124-4f16d4eebe09) seem to use Speed Reliability: 79 [world: -13,160,181]
+[03:47:48] [Async Chat Thread - #33/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ diria que los de las alex's caves
+[03:47:51] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Ravrs (101 ms, UUID: 459dca36-2181-3c33-a124-4f16d4eebe09) seem to use Speed 2 times Reliability: 89 [world: -14,159,196]
+[03:48:03] [Async Chat Thread - #32/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ porque son escasos
+[03:48:04] [Async Chat Thread - #32/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ encontre esmeralda y no lo puedo picar XD
+[03:48:10] [Async Chat Thread - #33/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ xd
+[03:48:27] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Ravrs (100 ms, UUID: 459dca36-2181-3c33-a124-4f16d4eebe09) seem to use Speed Reliability: 84 [world: -26,170,192]
+[03:48:28] [Async Chat Thread - #32/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ con esmeralda podes hacer armadura
+[03:48:37] [Async Chat Thread - #33/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ enserio??
+[03:48:43] [Async Chat Thread - #32/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ sip
+[03:48:51] [Async Chat Thread - #33/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ es mejor q la de diamante?
+[03:49:25] [Async Chat Thread - #32/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ son lijeras
+[03:49:31] [Async Chat Thread - #33/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ pero estan a la par
+[03:49:37] [Async Chat Thread - #32/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ oo
+[03:49:38] [Async Chat Thread - #33/INFO] [Console]: [SMP🪐] Miembro Ravrs ⪼ okay
+[03:49:44] [Async Chat Thread - #32/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ solo ocupas lagrimas de gasth
+[03:50:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ravrs has made the advancement [Acquire Hardware]
+[03:50:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ravrs has made the advancement [Isn't It Iron Pick]
+[03:52:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Ravrs has made the advancement [Suit Up]
+[03:53:17] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Ravrs (101 ms, UUID: 459dca36-2181-3c33-a124-4f16d4eebe09) seem to use Speed Reliability: 83 [world: -20,159,195]
+[03:53:23] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode spectator
+[03:53:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /tp Nachus_GC Ravrs
+[03:53:36] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Ravrs lost connection: Disconnected
+[03:53:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Miembro Ravrs Salio del server.
+[03:54:56] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode creative
+[03:56:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /tp Nachus_GC 797.5 174 1413.5
+[04:03:18] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /tp Nachus_GC 555.0 63 -1731.0
+[04:03:25] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC moved too quickly! 2.6580718519925313,-9.670240888521747,0.1333612816049481
+[04:03:36] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: Drowned['Drowned'/15488, l='ServerLevel[world]', x=586.50, y=20.00, z=-1806.50]
+[04:03:38] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: Drowned['Drowned'/15586, l='ServerLevel[world]', x=585.50, y=25.00, z=-1806.50]
+[04:03:38] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: Drowned['Drowned'/15597, l='ServerLevel[world]', x=575.50, y=25.00, z=-1810.50]
+[04:03:51] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: Drowned['Drowned'/15687, l='ServerLevel[world]', x=580.50, y=25.00, z=-1806.50]
+[04:03:53] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager]: UUID of added entity already exists: Drowned['Drowned'/15779, l='ServerLevel[world]', x=590.50, y=20.00, z=-1805.50]
+[04:04:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /tp Nachus_GC 1179.0 64 -2055.0
+[04:04:42] [Worker-Main-23/ERROR] [net.minecraft.world.entity.animal.allay.Allay]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;672061792,-366263352,-1752079043,-405291646],type:"minecraft:entity",y_offset:0.36f}}]
+[04:04:42] [Worker-Main-18/ERROR] [net.minecraft.world.entity.animal.allay.Allay]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;176865803,-972338229,-2060744252,-623071664],type:"minecraft:entity",y_offset:0.36f}}]
+[04:04:45] [Worker-Main-86/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement]: Empty or non-existent pool: joshie:village/ocean/decor
+[04:04:45] [Worker-Main-86/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement]: Empty or non-existent pool: joshie:village/ocean/decor
+[04:04:45] [Worker-Main-86/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement]: Empty or non-existent pool: joshie:village/ocean/decor
+[04:04:45] [Worker-Main-86/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement]: Empty or non-existent pool: joshie:village/ocean/decor
+[04:04:45] [Worker-Main-86/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement]: Empty or non-existent pool: joshie:village/ocean/decor
+[04:04:45] [Worker-Main-86/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement]: Empty or non-existent pool: joshie:village/ocean/decor
+[04:04:47] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /tp Nachus_GC 1823.0 63 -2111.0
+[04:04:51] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /tp Nachus_GC 1108.0 63 -1891.0
+[04:04:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Nachus_GC has made the advancement [advancement.dungeons_arise.find_illager_corsair_or_illager_galley.title]
+[04:08:15] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /effect give Nachus_GC minecraft:health_boost infinite 23
+[04:08:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Nachus_GC: Applied effect Health Boost to Nachus_GC]
+[04:08:29] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /effect give Nachus_GC minecraft:strength infinite 10
+[04:08:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Nachus_GC: Applied effect Strength to Nachus_GC]
+[04:08:41] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode survival
+[04:08:54] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (207 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use ForceField Reliability: 100 [world: 1025,67,-1951]
+[04:09:16] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (207 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use ForceField Reliability: 100 [world: 1020,67,-1947]
+[04:09:26] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (207 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Fly 5 times Reliability: 97 [world: 1013,68,-1954]
+[04:10:43] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (206 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use ForceField Reliability: 100 [world: 1015,67,-1951]
+[04:11:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner AshOficialMC Entro al servidor.
+[04:11:04] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: AshOficialMC[/127.0.0.1:44614] logged in with entity id 21430 at ([world]797.8033721600691, 190.0, 1403.8151711327994)
+[04:11:45] [Async Chat Thread - #35/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ volvi
+[04:12:13] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (202 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Fly 54 times Reliability: 100 [world: 1026,64,-1950]
+[04:12:14] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (202 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Fly 14 times Reliability: 100 [world: 1026,64,-1952]
+[04:12:15] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (202 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Fly 35 times Reliability: 100 [world: 1026,63,-1950]
+[04:12:57] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp group owner setdisplayname &9&lOwner
+[04:12:57] [luckperms-command-executor/INFO] [Console]: [LP] LOG > (AshOficialMC) [G] (owner)
+[04:12:57] [luckperms-command-executor/INFO] [Console]: [LP] LOG > setdisplayname &9&lOwner
+[04:13:18] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp group owner listmembers
+[04:13:26] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp group owner info
+[04:13:34] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp group owner setdisplayname
+[04:13:34] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (203 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use ForceField Reliability: 100 [world: 1019,67,-1951]
+[04:13:40] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp group owner setdisplayname Owner
+[04:13:40] [luckperms-command-executor/INFO] [Console]: [LP] LOG > (AshOficialMC) [G] (owner)
+[04:13:40] [luckperms-command-executor/INFO] [Console]: [LP] LOG > setdisplayname Owner
+[04:13:42] [Async Chat Thread - #36/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ a
+[04:13:45] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp group owner info
+[04:13:59] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Warning for Nachus_GC (205 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Fly 10 times Reliability: 100 [world: 1024,67,-1944]
+[04:14:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp group owner editor
+[04:16:00] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC issued server command: /lp applyedits 64SdUaG1ss
+[04:16:00] [luckperms-command-executor/INFO] [Console]: [LP] LOG > (AshOficialMC) [G] (owner)
+[04:16:00] [luckperms-command-executor/INFO] [Console]: [LP] LOG > webeditor add prefix.1.&9&lOwner &b true
+[04:16:00] [luckperms-command-executor/INFO] [Console]: [LP] LOG > (AshOficialMC) [G] (owner)
+[04:16:00] [luckperms-command-executor/INFO] [Console]: [LP] LOG > webeditor remove prefix.1.&6&lOwner &e true
+[04:16:55] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode creative
+[04:18:23] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /tp Nachus_GC -1098.0 72 -1195.0
+[04:18:44] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC moved too quickly! -6.327081073273575,0.0,-22.034832679066767
+[04:19:17] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode spectator
+[04:19:25] [Async Chat Thread - #39/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ bro
+[04:19:30] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode creative
+[04:19:32] [Async Chat Thread - #38/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ que pas
+[04:19:39] [Async Chat Thread - #39/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ anono nada xd
+[04:19:45] [Async Chat Thread - #38/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ me confundi algo
+[04:22:29] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC moved too quickly! 1283.171638540733,46.26590000152588,1137.810077335005
+[04:22:29] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight]: Scanning for legacy world dragon fight...
+[04:22:29] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight]: Found that the dragon has been killed in this world already.
+[04:22:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Nachus_GC has made the advancement [Who is Cutting Onions?]
+[04:23:04] [Async Chat Thread - #40/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ tmre
+[04:23:13] [Async Chat Thread - #41/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ no se si revivir al ender dragon o no
+[04:23:19] [Async Chat Thread - #40/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ para sacar fotos
+[04:23:46] [Async Chat Thread - #41/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ q dices
+[04:23:52] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /ping AshOficialMC
+[04:24:02] [Async Chat Thread - #40/INFO] [Console]: Blood .[SMP🪐] Owner Nachus_GC ⪼ no bueno
+[04:27:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Nachus_GC has reached the goal [advancements.alexscaves.dreadbow.title]
+[04:32:22] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode survival
+[04:32:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Nachus_GC has made the advancement [Third Time's the Charm]
+[04:32:54] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Violation for Nachus_GC (291 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed 2 times Reliability: 84 [DIM1: 7,60,10]
+[04:34:34] [Async Chat Thread - #43/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ sisis
+[04:34:40] [Async Chat Thread - #42/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ revivelo ni es necesario
+[04:34:43] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /effect give Nachus_GC minecraft:strength infinite 200
+[04:34:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Nachus_GC: Applied effect Strength to Nachus_GC]
+[04:35:09] [Async Chat Thread - #43/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ voy a ir trabajando en la ultima Act que creo que el servidor recibira, vendran como 3 mods
+[04:35:24] [Async Chat Thread - #42/INFO] [Console]: Blood .[SMP🪐] Owner AshOficialMC ⪼ pero son muy utiles y traeran cositas
+[04:35:31] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: AshOficialMC lost connection: Disconnected
+[04:35:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: > Owner AshOficialMC Salio del server.
+[04:36:10] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Violation for Nachus_GC (211 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed 2 times Reliability: 67 [DIM1: 6,59,-15]
+[04:36:26] [Server thread/INFO] [com.elikill58.negativity.spigot.SpigotNegativity]: [Negativity] New Violation for Nachus_GC (211 ms, UUID: 27cef4d1-62ad-3b6a-a0b1-375853a84c09) seem to use Speed 9 times Reliability: 87 [DIM1: -19,52,-31]
+[04:36:32] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /gamemode creative
+[04:39:39] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC issued server command: /tp Nachus_GC -117.0 161 173.0
+[04:41:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[04:41:41] [Server thread/INFO] [Console]: [TAB] §xDisabled in 2ms
+[04:41:42] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[04:41:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[04:41:42] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Nachus_GC lost connection: Server closed
+[04:41:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Nachus_GC left the game.
+[04:41:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[04:41:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:42:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:42:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:42:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:42:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:42:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:42:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved

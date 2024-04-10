@@ -1,0 +1,8 @@
+_DEFAULT_:
+  tabprefix: '%luckperms-prefix%'
+  tagprefix: '%luckperms-prefix%'
+  customtabname: '%player%'
+  customtagname: '%player%'
+  tabsuffix: '%luckperms-suffix%'
+  tagsuffix: '%luckperms-suffix%' 
+  belowname: '&4&l❤%health% &6&l⚔%statistic_player_kills% &e&l💀%statistic_deaths%'

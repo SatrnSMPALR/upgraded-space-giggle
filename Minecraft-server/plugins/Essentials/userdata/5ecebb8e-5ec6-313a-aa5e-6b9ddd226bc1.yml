@@ -1,0 +1,66 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1712720144959
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1712723731498
+  login: 1712722264399
+  kits:
+    dtools: 1712548387186
+    vip: 1712632879024
+money: '0'
+last-account-name: AshOficialMC
+logoutlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: 793.5483838811347
+  y: 188.0
+  z: 1381.4911213469402
+  yaw: 177.69000244140625
+  pitch: -6.649339199066162
+lastlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: -1437.2538120547565
+  y: -51.0
+  z: 2044.8640219459066
+  yaw: -105.64434814453125
+  pitch: 33.19676208496094
+homes:
+  casanew:
+    world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+    world-name: world
+    x: 794.3472310273008
+    y: 192.0
+    z: 1378.932340373052
+    yaw: -169.8661346435547
+    pitch: 40.57443618774414
+  aldeav2:
+    world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+    world-name: world
+    x: 1176.3831418871766
+    y: 88.0
+    z: 962.0492819032115
+    yaw: -24.258544921875
+    pitch: 13.864522933959961
+  acity:
+    world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+    world-name: world
+    x: -1465.5
+    y: -52.0
+    z: 2027.5
+    yaw: -85.726318359375
+    pitch: 15.795528411865234

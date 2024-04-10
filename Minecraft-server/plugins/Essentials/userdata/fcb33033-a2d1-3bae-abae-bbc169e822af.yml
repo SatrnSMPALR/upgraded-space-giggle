@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1712472129544
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1712511963880
+  login: 1712510303301
+money: '0'
+last-account-name: Dalej
+lastlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: -0.6951508172654128
+  y: 137.0
+  z: 4.406622493862405
+  yaw: -20.850004196166992
+  pitch: -36.44997024536133
+logoutlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: 112.21648661406434
+  y: 120.0
+  z: -3.086298060228397
+  yaw: -141.7353515625
+  pitch: 14.250261306762695
+homes:
+  home:
+    world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+    world-name: world
+    x: 114.7765501070605
+    y: 120.0
+    z: -5.632436294320508
+    yaw: -49.35107421875
+    pitch: 25.650041580200195

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1712625589510
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1712714157207
+  login: 1712707002826
+money: '0'
+last-account-name: xXDash_RedXx
+lastlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: -445.66616136606694
+  y: 56.0
+  z: 1396.300000011921
+  yaw: -176.55050659179688
+  pitch: 15.449943542480469
+logoutlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: -852.046553921562
+  y: 120.5
+  z: 2016.8674914050732
+  yaw: 64.65936279296875
+  pitch: 22.050203323364258
+homes:
+  end:
+    world: e5d07cf4-0780-414b-a77c-592ffe51434b
+    world-name: DIM1
+    x: -1103.7025899440418
+    y: 141.0
+    z: -1478.0540500805391
+    yaw: 167.31179809570312
+    pitch: 21.299972534179688

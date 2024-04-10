@@ -1,0 +1,17 @@
+name: admin
+permissions:
+- essentials.ban
+- essentials.banip
+- essentials.disposal
+- essentials.enchant
+- essentials.enderchest
+- essentials.heal
+- essentials.invsee
+- essentials.invsee.preventmodify
+- essentials.unban
+- essentials.unbanip
+parents:
+- helper
+prefixes:
+- '&4&lAdmin &b':
+    priority: 1

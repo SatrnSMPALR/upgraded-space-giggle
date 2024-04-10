@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1712473551494
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1712473888550
+  login: 1712464636741
+money: '0'
+last-account-name: MandyXMaster687
+lastlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: -49.30000001192093
+  y: 60.0
+  z: -212.447913648082
+  yaw: 154.210693359375
+  pitch: 20.399991989135742
+logoutlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: 220.30000001192093
+  y: 110.0
+  z: -126.54073108883685
+  yaw: -97.56585693359375
+  pitch: 14.399975776672363

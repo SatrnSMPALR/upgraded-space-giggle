@@ -1,0 +1,10 @@
+name: owner
+permissions:
+- displayname.Owner
+- minecraft.admin
+- minecraft.admin.command_feedback
+- minecraft.command.deop
+- minecraft.command.op
+prefixes:
+- '&9&lOwner &b':
+    priority: 1

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1712470216858
+  login: 1712468639334
+money: '0'
+last-account-name: Rms3s
+lastlocation:
+  world: 99c629cf-230f-4ee6-90c8-f24297669763
+  world-name: world
+  x: 65.89390981533786
+  y: 88.0
+  z: -121.78846611704567
+  yaw: 41.55291748046875
+  pitch: 11.249972343444824
+logoutlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: 216.11737981801036
+  y: 84.0
+  z: 156.86975650389692
+  yaw: 125.55810546875
+  pitch: 12.300066947937012

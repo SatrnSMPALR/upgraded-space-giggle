@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1712625931760
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1712627393631
+  login: 1712623997394
+money: '0'
+last-account-name: renateitorgt
+lastlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: -305.9618823659429
+  y: 113.0
+  z: 1235.5786399456672
+  yaw: 127.7913818359375
+  pitch: 37.04998016357422
+logoutlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: -838.5084974342844
+  y: 130.0
+  z: 2024.713297176873
+  yaw: 76.249267578125
+  pitch: 23.249725341796875

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1712427781281
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1712427814278
+  login: 1712426136901
+money: '0'
+last-account-name: el_Alejo__
+lastlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: -848.5528051692838
+  y: 120.0
+  z: 2017.134259537661
+  yaw: -81.3435287475586
+  pitch: 31.596660614013672
+logoutlocation:
+  world: 287db805-6b92-4efa-91a5-b0e2d9adb70f
+  world-name: world
+  x: -1051.699999988079
+  y: -54.0
+  z: 2186.1854362485274
+  yaw: 65.81039428710938
+  pitch: 19.397966384887695

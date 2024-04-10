@@ -1,0 +1,32 @@
+name: default
+permissions:
+- simpleclans.anyone.*
+- simpleclans.leader.*
+- simpleclans.member.*
+- bukkit.command.plugins:
+    value: false
+- bukkit.command.version:
+    value: false
+- chatty.chat.global
+- essentials.anvil
+- essentials.back
+- essentials.delhome
+- essentials.home
+- essentials.loom
+- essentials.playtime
+- essentials.sethome
+- essentials.sethome.bed
+- essentials.sethome.multiple.default
+- essentials.tpa
+- essentials.tpacancel
+- essentials.tpaccept
+- essentials.tpahere
+- essentials.tpall
+- essentials.tpauto
+- essentials.tpdeny
+- luckperms:
+    value: false
+- simpleclans.leader.create
+prefixes:
+- '&6&lMiembro &7':
+    priority: 1

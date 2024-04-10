@@ -1,0 +1,14 @@
+name: helper
+permissions:
+- essentials.afk.auto
+- essentials.fly
+- essentials.jail
+- essentials.mute
+- essentials.speed
+- essentials.tp
+- minecraft.command.gamemode.spectator
+parents:
+- default
+prefixes:
+- '&f[&6&lHelper&f]':
+    priority: 1
